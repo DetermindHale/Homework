@@ -1,0 +1,105 @@
+
+body{
+	background-color: #3399FF;
+}
+.menu {
+	font-family: arial, sans-serif; 
+	width:750px; 
+	position:relative; 
+	margin:0; 
+	font-size:11px; 
+	margin:50px 0;
+}
+.menu ul li a, .menu ul li a:visited {
+	display:block; 
+	text-decoration:none; 
+	color:#fff;
+	width:104px; 
+	height:20px; 
+	text-align:center; 
+	color:#fff; 
+	border:1px solid #fff; 
+	background:#00FF33; 
+	line-height:20px; 
+	font-size:11px; 
+	overflow:hidden;
+}
+.menu ul {
+	padding:0; 
+	margin:0;
+	list-style-type: none; 
+}
+.menu ul li {
+	float:left; 
+	margin-right:1px; 
+	position:relative;
+}
+.menu ul li ul {
+	display: none;
+}
+.menu ul li:hover a {
+	color:#fff; 
+	background:#36f;
+}
+.menu ul li:hover ul {
+	display:block; 
+	position:absolute; 
+	top:21px; left:0; width:105px;
+}
+.menu ul li:hover ul li a.hide {
+	background:#6a3; 
+	color:#fff;
+}
+.menu ul li:hover ul li:hover a.hide {
+	background:#6fc; 
+	color:#000;
+}
+.menu ul li:hover ul li ul {
+	display: none;
+}
+.menu ul li:hover ul li a {
+	display:block; 
+	background:#ddd; 
+	color:#000;
+}
+.menu ul li:hover ul li a:hover {
+	background:#6fc; 
+	color:#000;
+}
+.menu ul li:hover ul li:hover ul {
+	display:block;
+	position:absolute;
+	left:105px; top:0;
+}
+.menu ul li:hover ul li:hover ul.left {
+	left:-105px;
+}
+
+.icon-small {
+	font-size: 1em;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+.icon-mid {
+	font-size: 2em;
+}
+.icon-menu,
+.icon-menu:before,
+.icon-menu:after {
+	position: absolute;
+	left: 0;
+	width: 1em;
+	height: .25em;
+	background-color: black;
+}
+.icon-menu {
+	top: .0625em;
+}
+.icon-menu:before {
+	content: "";
+	top: .3125em;
+}
+.icon-menu:after {
+	content: "";
+	top: .625em;
+}
